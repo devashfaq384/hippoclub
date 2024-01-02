@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./font.css">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>HIPPOCLUB</title>
+    <style>
+        .n-bar{
+            background-color: rgba(17, 17, 17,0.4);
+            padding: 20px;
+        }
+        .heading-header{
+            font-size: 34px;
+            color: white;
+            font-weight: 600;
+        }
+        .join{
+            font-size: 26px;
+            color: white;
+            font-weight: 600;
+        }
+        @media only screen and (max-width:770px){
+            .n-bar{
+                padding: 20px;
+            }
+            .heading-header{
+                font-size: 28px;
+                font-weight: 400;
+            }    
+            .join{
+                font-size: 20px;
+                font-weight: 400;
+            }
+            .bi-sliders{
+                font-size: 20px;
+                font-weight: 400;
+            }
+        }
+        @media only screen and (max-width:580px){
+            .n-bar{
+                padding: 15px;
+            }
+            .heading-header{
+                font-size: 22px;
+                font-weight: 500;
+            }    
+            .join{
+                font-size: 16px;
+                font-weight: 500;
+            }
+            .slider{
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+        @media only screen and (max-width:350px){
+            .n-bar{
+                padding: 15px;
+            }
+            .heading-header{
+                font-size: 18px;
+                font-weight: 500;
+            }    
+            .join{
+                font-size: 14px;
+                font-weight: 500;
+            }
+            .slider{
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+      
+      <div id="main ">
+          <!-- header section  -->
+          <div class="heder">
+            <div class="n-bar d-flex">
+                <span class="heading-header">ORDINARY HIPPO CLUB</span>
+                <span class="join ms-auto me-5">JOIN <br> DISCORD</span>
+                <span onclick="openNav()"><i class="bi bi-sliders slider"></i></span>
+            </div>
+                <div class="welcome text-center">
+                   <span class="animate__animated animate__zoomIn">
+                        WELCOME TO THE WORLD OF HIPPOS
+                   </span> 
+                </div>
+            </div>
+          <!-- header section End -->
+          <div class="bg-pirple container-fluid">
+          <!-- avail section  -->
+                <section class="text-center container d-flex flex-column align-items-center">
+                    <div class="avail container-fluid d-flex flex-column align-items-center color-green py-3">
+                        <div class="avail-open my-5">
+                            AVAILABLE ON OPEANSEA
+                        </div> 
+                        <img src="./images/buy.png" class="image my-3 img-fluid">
+                        <div class="border-green mt-5 mb-3"></div>
+                    </div>
+                    <div class="begin my-1 color-green" >
+                        THE BEGINNING
+                    </div>
+                    
+                    <p class="para my-3 w-50 text-white">
+                        <span class="color-green"> HIPPOS</span> USED TO LIVES IN GROUP, BEING VERY UNITED. ONE DAY THE GROUP WENT INTO A STRANGE LAKE. THE WATER WAS <span class="text-danger">RED</span> AND THE SURROUNDING GRASS WAS BURNED BUT THEY DIDN’T CARE. AFTER A WHILE SOMETHING STRANGE HAPPENED.
+                    </p>
+                    <p class="para my-3 w-50 text-white">
+                                THEY STARTED WALKING ON TWO LEGS, TALKING AND THINKING LIKE A PERSON. THEY STARTED TO PANIC AND RAN AWAY.
+                    </p>
+                    <p class="para my-3 w-50 text-white">
+                             MANY OF THEM HAVE NOT BEEN FOUND SINCE. WE HAVE TO FIND THEM AND BRING THEM TOGETHER SO THAT EVERYTHING RETURNS TO NORMAL.
+                    </p>
+                    <div class="border-green my-5"></div>
+                    <div class="club my-1 color-green">
+                            HIPPO CLUB
+                    </div>
+                    <div class="smal my-2">
+                        <span class="text-white">
+                            AVAILABLE ON 
+                        </span>
+                        <span class="color-green">
+                            OPEANSEA
+                        </span>
+                    </div> 
+                </section>
+          <!-- avail section end -->
+          <!-- gallery section  -->
+          <div class="container-fluid my-3">
+              <div class="row gallery-align">
+                  <div class="col-md-6 my-3">
+                      <div class="bg-green hippo-gallery ms-md-auto d-flex justify-content-center align-items-center "  >
+                          <img src="./images/hippoberu2.jpg" width="310px" height="310px" alt="">
+                      </div>
+                  </div>
+                  <div class="col-md-6 my-3">
+                    <div class="bg-green hippo-gallery me-md-auto  d-flex justify-content-center align-items-center " data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
+                        <img src="./images/hippoberu2.jpg" width="310px" height="310px" alt="">
+                    </div>
+                  </div>
+            </div>
+              <div class="row gallery-align">
+                  <div class="col-md-6 my-3">
+                      <div class="bg-green hippo-gallery ms-md-auto d-flex justify-content-center align-items-center"  >
+                          <img src="./images/hippoberu2.jpg" width="310px" height="310px" alt="">
+                      </div>
+                  </div>
+                  <div class="col-md-6 my-3">
+                    <div class="bg-green hippo-gallery me-md-auto  d-flex justify-content-center align-items-center"  data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
+                        <img src="./images/hippoberu2.jpg" width="310px" height="310px" alt="">
+                    </div>
+                  </div>
+            </div>
+              <div class="row gallery-align">
+                  <div class="col-md-6 my-3">
+                      <div class="bg-green hippo-gallery ms-md-auto d-flex justify-content-center align-items-center"  >
+                          <img src="./images/hippoberu2.jpg" width="310px" height="310px" alt="">
+                      </div>
+                  </div>
+                  <div class="col-md-6 my-3">
+                    <div class="bg-green hippo-gallery me-md-auto  d-flex justify-content-center align-items-center"  data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
+                        <img src="./images/hippoberu2.jpg" width="310px" height="310px" alt="">
+                    </div>
+                  </div>
+            </div>
+              <div class="row gallery-align">
+                  <div class="col-md-6 my-3">
+                      <div class="bg-green hippo-gallery ms-md-auto d-flex justify-content-center align-items-center"  >
+                          <img src="./images/hippoberu2.jpg" width="310px" height="310px" alt="">
+                      </div>
+                  </div>
+                  <div class="col-md-6 my-3">
+                    <div class="bg-green hippo-gallery me-md-auto  d-flex justify-content-center align-items-center"  data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
+                        <img src="./images/hippoberu2.jpg" width="310px" height="310px" alt="">
+                    </div>
+                  </div>
+            </div>
+            <div class="text-white text-center my-3 gallery-text">
+                <div>EACH <span class="color-green">HIPPO</span>HAS SPECIAL ELEMENTS AND SPECIAL COMBINATIONS.</div>
+                <div>SOME ARE <span class="color-green">RARER</span>BECAUSE OF THE COLLECTION THEY COME FROM.</div>
+            </div>
+        </div>
+        <!-- gallery section end -->
+        <section class="text-center container d-flex flex-column align-items-center">
+              <div class="border-green mt-5"></div>
+            <div class="club mt-5 mb-3 color-green">
+                TIER SYSTEM
+            </div>
+            <div class="heading-tier my-1 color-green">
+                COMMON
+            </div>
+            <p class="text-white para-tier">
+                THIS RARITY IS THE MOST COMMON AND THE CHEAPEST OF ALL. PROPERTIES ARE ALSO FOUND IN OTHER HIPPOS, BUT MANY OF THEM ARE ORIGINAL.
+            </p>
+            <div class="heading-tier my-1 color-green">
+                RARE
+            </div>
+            <p class="text-white para-tier">
+                RARE ARE HARDER TO FIND THAN COMMON. THEY HAVE RARE PROPERTIES HARD TO FIND IN OTHER HIPPOS, ALMOST IMPOSSIBLE.
+            </p>
+            <div class="heading-tier my-1 color-green">
+                COLLECTION
+            </div>
+            <p class="text-white para-tier">
+                HIPPOS THAT ARE PART OF COLLECTIONS ARE ALMOST THE RAREST TO FIND. THEY HAVE SPECIAL PROPERTIES AND ARE LIMITED EDITION. IN MY OPINION, WHOEVER GETS HIS HANDS ON A HIPPO FROM A COLLECTION IS LUCKY.
+            </p>
+            <div class="heading-tier my-1 color-green">
+                LEGENDARY
+            </div>
+            <p class="text-white para-tier">
+                AS THE NAME SAYS, THEY ARE LEGENDARY. THEY ARE THE RAREST AND MOST EXPENSIVE. A LEGENDARY IS MADE PER 100 MINTED SO IF I SAID TO THE COLLECTION THAT YOU’RE LUCKY TO GET YOUR HANDS ON ONE HERE I’M NOT EVEN SAYING THAT.
+            </p>
+            <div class="border-green my-4"></div>
+
+        </section>
+          <!-- Road map section  -->
+          <section class=" container px-5">
+            <div class="club text-center my-1 color-green">
+                ROAD MAP
+            </div>
+            <div class="timeline">
+                <div class="outer">
+                  <div class="carde">
+                    <div class="info">
+                      <h3 class="title first">The Launch</h3>
+                      <p> 100 HIPPOS READY TO BUY  </p>
+                    </div>
+                  </div>
+                  <div class="carde">
+                    <div class="info">
+                      <h3 class="title">100 Sold</h3>
+                      <p>Free prize draw for owners and white listed for all future projects  </p>
+                    </div>
+                  </div>
+                  <div class="carde">
+                    <div class="info">
+                      <h3 class="title">500 Sold</h3>
+                      <p> 2 legendary hippos to two lucky owners </p>
+                    </div>
+                  </div>
+                  <div class="carde">
+                    <div class="info">
+                      <h3 class="title">750 Sold</h3>
+                      <p>15 owners will receive 1 nft each. Winner will be selected at random. </p>
+                    </div>
+                  </div>
+                  <div class="carde">
+                    <div class="info">
+                      <h3 class="title">1000 Sold</h3>
+                      <p>Hippo game announced. You'll be able to use your hippo in our playtoearn game </p>
+                    </div>
+                  </div>
+                  <div class="carde">
+                    <div class="info">
+                      <h3 class="title">2500 Sold</h3>
+                      <p>New collection announced!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="bg-green map-gallery container-fluid my-5 d-flex justify-content-center align-items-center">
+                <img src="./images/painting.jpg" class="img img-fluid" width="100%" height="100%" alt="">
+            </div>
+        </section>
+        <!-- Road map section End -->
+        <!-- FAQ section  -->
+        <section class="text-center d-flex flex-column justify-content-center align-items-center">
+            <div class="border-green text-center my-4"></div>
+            <div class="club text-center mb-2 color-green">
+                FAQ
+              </div>
+        </section>
+        <div class="d-flex justify-content-center my-2">
+            <div class="w-50 accor  mt-2">
+                <button class="accordon  ">How much is a Hippo nft?</button>
+                    <div class="panel animate__animated animate__slideInDown">
+                    <p>At launch it will be 0.03 ETH if none is sold in the first 24 hours it will drop to 0.025 ETH.</p>
+                    </div>
+
+                    <button class="accordon my-1">Where i can view my Hippo Nfts?</button>
+                    <div class="panel">
+                    <p>Once you have buy a Hippo Nft, you will be able to see it by connecting your crypto wallet to OpenSea.</p>
+                    </div>
+
+                    <button class="accordon">How do I know how rare my Hippo Nft is?</button>
+                    <div class="panel">
+                    <p>In the description you will see what he wears and how many more hippo wears the same think.</p>
+                    </div>
+            </div>
+        </div>  
+          <!-- FAQ section end -->
+          <!-- Team section   -->
+          <section class="text-center d-flex flex-column align-items-center">
+            <div class="border-green text-center mt-5 mb-3"></div>
+            <div class="club text-center my-1 color-green">
+                TEAM
+            </div>
+            <div class="row gallery-align">
+                <div class="col-md-6 my-5">
+                    <div class="bg-green hippo-gallery ms-md-auto d-flex justify-content-center align-items-center" >
+                        <img src="./images/hippoberu2.jpg" width="310px" height="310px" alt="">
+                    </div>
+                    <div class="mt-3">  
+                        <span class="nicol text-white">PAS</span>
+                        <p class="post color-green">MARKETING GENIUS</p>
+                    </div>
+                </div>
+                <div class="col-md-6 my-5">
+                  <div class="bg-green hippo-gallery me-md-auto  d-flex justify-content-center align-items-center">
+                      <img src="./images/hippoberu2.jpg" width="310px" height="310px" alt="">
+                  </div>
+                  <div class="mt-3">  
+                    <span class="nicol text-white">NICOLAZ</span>
+                    <p class="post color-green">ART DIRECTOR</p>
+                </div>
+                </div></div>
+                <div class="team-last mt-5">
+                    <div class="bg-green hippo-gallery d-flex justify-content-center align-items-center" >
+                        <img src="./images/hippoberu2.jpg" width="310px" height="310px" alt="">
+                    </div>
+                    <div class="my-3">  
+                        <span class="nicol text-white">TJ POLLITT</span>
+                        <p class="post color-green">ADVISOR</p>
+                    </div>
+                </div>
+                
+
+          </section>
+          <!-- Team section End  -->
+          <!-- Footer  -->
+          <footer>
+            <section class="text-center d-flex flex-column align-items-center">
+                <div class="border-green text-center mt-5 mb-3"></div>
+                <div class="club text-center my-1 color-green">
+                    THANK YOU
+                </div>
+                <div class="icon my-1" >
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-youtube"></i>
+                </div>
+                <div class="copyright text-white">
+                    ALL RIGHTS RESERVED BY ORDINARY HIPPO <span class="color-green">2021</span>
+                </div>
+            </section>
+          </footer>
+          <!-- Footer End -->
+          </div>        
+        </div>
+
+      </div>
+      <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+      <!-- <script>
+        AOS.init();
+      </script> -->
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
